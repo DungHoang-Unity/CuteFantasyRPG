@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8b51102664e98284cabb52f46e521aba
+guid: a5b1c7f381e1143d2b6dbb6691a89fc2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,30 +93,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tool_Icons_NO_Outline_0
+      name: Slash Effect_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 12
-        height: 12
+        x: 19
+        y: 51
+        width: 17
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db30f0e459c174ed59746bc201eed658
-      internalID: 1423295589
+      spriteID: f05ed99cf5c554c6fb1d0554fba7ffa3
+      internalID: -73586808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tool_Icons_NO_Outline_1
+      name: Slash Effect_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1
-        width: 14
-        height: 14
+        x: 83
+        y: 50
+        width: 28
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d273fed584524cf5bd234b97d1f729c
-      internalID: 1834130448
+      spriteID: 131545705bc9c40479120b9085ef645d
+      internalID: -58927637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tool_Icons_NO_Outline_2
+      name: Slash Effect_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 1
-        width: 14
-        height: 14
+        x: 155
+        y: 41
+        width: 27
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a0512d7f908142f7932e8c9d8510125
-      internalID: 494258076
+      spriteID: 0381577965c4240938bdd492c6c81dbf
+      internalID: 1263342693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tool_Icons_NO_Outline_3
+      name: Slash Effect_3
       rect:
         serializedVersion: 2
-        x: 49
-        y: 2
-        width: 14
-        height: 12
+        x: 223
+        y: 20
+        width: 26
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d692348b1bb544b8b8dbb0b872f6b735
-      internalID: 294879504
+      spriteID: f6bfc6691123a4512bf05d7b6a5c3c8a
+      internalID: -723858818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tool_Icons_NO_Outline_4
+      name: Slash Effect_4
       rect:
         serializedVersion: 2
-        x: 65
-        y: 1
-        width: 14
-        height: 14
+        x: 293
+        y: 8
+        width: 20
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f80ccd05ea9646509c9ccce6c6a6dda
-      internalID: 931699135
+      spriteID: 00d4ff3d4898d49c3bcefed975bdbeb7
+      internalID: 795480460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tool_Icons_NO_Outline_5
+      name: Slash Effect_5
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1
-        width: 14
-        height: 13
+        x: 346
+        y: 7
+        width: 31
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ee499d74f2834c598899a7413395326
-      internalID: 1074034423
+      spriteID: 63d80906a8ec749138f3f4134268137d
+      internalID: -333849761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tool_Icons_NO_Outline_6
+      name: Slash Effect_6
       rect:
         serializedVersion: 2
-        x: 98
-        y: 2
-        width: 12
-        height: 11
+        x: 408
+        y: 7
+        width: 33
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ed99fcd7e68242f0a612422d20bee36
-      internalID: 1765093869
+      spriteID: 86356a93a2d554c44a6051dbd5d686a8
+      internalID: 648886939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tool_Icons_NO_Outline_7
+      name: Slash Effect_7
       rect:
         serializedVersion: 2
-        x: 113
-        y: 1
-        width: 14
-        height: 13
+        x: 470
+        y: 7
+        width: 35
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 954e23e24372244abae980401a17b0d0
-      internalID: -1338070273
+      spriteID: 34658d3a64f494e20930fb311acfd870
+      internalID: 579603000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tool_Icons_NO_Outline_8
+      name: Slash Effect_8
       rect:
         serializedVersion: 2
-        x: 129
-        y: 1
-        width: 14
-        height: 14
+        x: 532
+        y: 7
+        width: 37
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,29 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 944fd7c8386a8443c883d197112b722e
-      internalID: -602735845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tool_Icons_NO_Outline_9
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 1
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a071e152c62c846a39a4099bc1455961
-      internalID: -1315806883
+      spriteID: 89dc6305c9db543babf4f9824d119248
+      internalID: -633700286
       vertices: []
       indices: 
       edges: []
@@ -330,16 +296,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tool_Icons_NO_Outline_0: 1423295589
-      Tool_Icons_NO_Outline_1: 1834130448
-      Tool_Icons_NO_Outline_2: 494258076
-      Tool_Icons_NO_Outline_3: 294879504
-      Tool_Icons_NO_Outline_4: 931699135
-      Tool_Icons_NO_Outline_5: 1074034423
-      Tool_Icons_NO_Outline_6: 1765093869
-      Tool_Icons_NO_Outline_7: -1338070273
-      Tool_Icons_NO_Outline_8: -602735845
-      Tool_Icons_NO_Outline_9: -1315806883
+      Slash Effect_0: -73586808
+      Slash Effect_1: -58927637
+      Slash Effect_2: 1263342693
+      Slash Effect_3: -723858818
+      Slash Effect_4: 795480460
+      Slash Effect_5: -333849761
+      Slash Effect_6: 648886939
+      Slash Effect_7: 579603000
+      Slash Effect_8: -633700286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
