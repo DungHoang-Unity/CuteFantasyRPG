@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,8 +137,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 98a3d61154aaa9c40b364d1dd520f9fb
       internalID: -2002384739
+=======
+      spriteID: 3cd90c4c52bc6409093eb6a53960a045
+      internalID: -1377910575
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -158,8 +163,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 0a18b13eb7234a349914851b3fe502a5
       internalID: 1243826749
+=======
+      spriteID: 6ed36cbce394542c9961bbad9616c055
+      internalID: 76327388
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -179,8 +189,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 0c77669ccb6320c4097b318838e46469
       internalID: -28405585
+=======
+      spriteID: ed54aa05323fe4abfa19a7c25c6f8cd0
+      internalID: 1431408243
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -200,8 +215,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 9c5f8b6c90462cf4c8b682dbc19d27fd
       internalID: -207069924
+=======
+      spriteID: 5b49a06e07bde428aacbbc79bfe54f26
+      internalID: 416761536
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -221,8 +241,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: cc9866e920529d94ea822ec397856dc5
       internalID: -1368956367
+=======
+      spriteID: 4905ca01c77904a7eb0332ad8575ba5a
+      internalID: 1584901046
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -242,8 +267,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: cdf392a250e48b749b5ee22489b776aa
       internalID: -356567132
+=======
+      spriteID: 506312800f5b84c2b84cd736e61729d8
+      internalID: 1937250448
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -263,8 +293,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: f6e06d1ae3fd11c40a31dacbb76f6ae8
       internalID: -1638785410
+=======
+      spriteID: 3cfadedb1c17e442885e53a161740f0d
+      internalID: -236429384
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -284,8 +319,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 580199fe2a09b3848bdabecfbed54a8f
       internalID: 830372568
+=======
+      spriteID: 5046e4b471e9a42158d48e3c7fceb86b
+      internalID: 124925672
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -305,8 +345,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 74cad7c246d22534cb7708dab6594676
       internalID: 1484380136
+=======
+      spriteID: 7f40282ab1153434bb59553704b73f48
+      internalID: 1380449199
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -326,8 +371,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: f2752b54071dc1547aeea5198594c820
       internalID: 1540119112
+=======
+      spriteID: 4f9e053eff60246e3bb5c962302cdfe5
+      internalID: -530935297
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -347,8 +397,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 7f99990fe7fa78b40af765e52d4fde87
       internalID: 1236080591
+=======
+      spriteID: c3c46afe4afe94becb0f17562956e8b1
+      internalID: 1228824374
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -368,8 +423,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 620a0ed05cfc3b042a30ed33a709139f
       internalID: 1968550995
+=======
+      spriteID: 5738336604d4844dfb749be7d7d4fc4e
+      internalID: 89244711
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -389,8 +449,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 177c1ef9dcfe8eb41bf2031688bf7f10
       internalID: -1646067323
+=======
+      spriteID: 69eece475ef4343deb769b5350214627
+      internalID: -293945464
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -410,8 +475,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: d04c09879d2da3d40b1e6fe103bb3ea6
       internalID: -1051444560
+=======
+      spriteID: d5518e85ce7d44bab962cc773d761507
+      internalID: -1865406319
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -431,8 +501,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 56b8b06b7d4d0d84b971495908d9d4b6
       internalID: -687186143
+=======
+      spriteID: bf7547e30f8f34b58ba83b05dbe13b24
+      internalID: 394458690
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -452,8 +527,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 3f7e0493e73635f44a421916ebd36853
       internalID: 1767186883
+=======
+      spriteID: 05384d30a13654b08a8082585889356c
+      internalID: -213367641
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -473,8 +553,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: d0c439269a240644785cd347630cf448
       internalID: 864443373
+=======
+      spriteID: d86d9a6b723af42ca83fd02ac5606b1c
+      internalID: 447729104
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -494,8 +579,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 57982217ba3202d4da914a7f3653973d
       internalID: -1375085744
+=======
+      spriteID: efacc1334fec548f1a1167a95a03dd6a
+      internalID: -1702138390
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -515,8 +605,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: c0ddfb2aef7c7964a959d48d8af7db60
       internalID: 846953800
+=======
+      spriteID: 0b461011f7bdb48baac48f65fc05557f
+      internalID: -1429774822
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -536,8 +631,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 50b21b4da1d73b7489e32970a7e99d5f
       internalID: -2009798495
+=======
+      spriteID: 328acfc787e514f0f9669905bb692f7c
+      internalID: 121809287
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -557,8 +657,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: df291d2d0086fae4681e3b9f3c5a5638
       internalID: 1366770148
+=======
+      spriteID: f07d0890c412f4555b1a974a760953b5
+      internalID: 693952537
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -578,8 +683,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 3632cc46b7891314eaa3f510b6e4a4e6
       internalID: 419276177
+=======
+      spriteID: a8feac1ce84ed45c3adc16fd4bba9d82
+      internalID: -1940320121
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -599,8 +709,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: f262dbcdc5cb3024a94b754270db7bd3
       internalID: -944721646
+=======
+      spriteID: 377a01af5dbc640818a207123e170414
+      internalID: 1198101308
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -620,8 +735,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: f833f6ef0da212c4ba20b78eebc8171b
       internalID: -452309358
+=======
+      spriteID: 00290fde2542541deb81642154124c5a
+      internalID: -391655487
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -641,8 +761,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: a6ae422c869bd794a9d7b8c2b35dd7f2
       internalID: 551914755
+=======
+      spriteID: bfcef08e63059443086890bf48cd5bfd
+      internalID: -1950831115
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -662,8 +787,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: b27e7298ec6ffd542aa94f9099ac91b8
       internalID: -2118992230
+=======
+      spriteID: 8019dd62bceda433fb0b6c9f423ec714
+      internalID: 1085417020
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -683,8 +813,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 472d7cabc2f2d744996ba93370aedac3
       internalID: 1977793146
+=======
+      spriteID: a6c6c3075597746ff8c9e07b97875e6f
+      internalID: 112346509
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -704,8 +839,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: c7a5b7fa95d0fc246a07ba32711d2bfc
       internalID: 1806839132
+=======
+      spriteID: a394e7a80066c4fd19384d68f2c09a85
+      internalID: -180759632
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -725,8 +865,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: d1e3702ca83d18a45890ffcafaed215d
       internalID: -275882747
+=======
+      spriteID: 75af974388da24ea9a07526e73c6cf6b
+      internalID: 1272264033
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -746,8 +891,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 748534f16021a2040a09f0211f57e67d
       internalID: 260767732
+=======
+      spriteID: 07af5279caeff404b851eb74be3ecdc7
+      internalID: -327373616
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -767,8 +917,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: d58eb0db336f93b499abd976233b7f55
       internalID: -613494803
+=======
+      spriteID: dded5e19987bc445ea3315463d07d807
+      internalID: -77927787
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -788,8 +943,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: cb90af8dea8ee8a44afb8938b5661211
       internalID: -44586019
+=======
+      spriteID: 2c483892c8f0a4b7b8029d6d5b423980
+      internalID: 1314821860
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -809,8 +969,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: e5e7718e94850904abe54027738b20db
       internalID: -1501824622
+=======
+      spriteID: 8df9fb23121194aa6b654e4d30a8a1eb
+      internalID: 194946836
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -830,8 +995,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 303183a6296292445a6e89178669cbc1
       internalID: 1421965548
+=======
+      spriteID: 9af90265c164345dfb0defea645e165c
+      internalID: 1143998340
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -851,8 +1021,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: b4a9c7bd6028a1c40b01b508c6092743
       internalID: 242659117
+=======
+      spriteID: 849d9906bec094660885605517964c63
+      internalID: -1587416118
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -872,8 +1047,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: d7192ee8db861bb489927671f3033089
       internalID: 1948612899
+=======
+      spriteID: df5a59a45523e455bae0c4d758954dbc
+      internalID: 1661424078
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -893,8 +1073,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 04a9752cda86fbf4cbfa6dadf0a3075c
       internalID: 871307070
+=======
+      spriteID: be84b800ba30b4f21bb87d200850dfaf
+      internalID: 758058369
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -914,8 +1099,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: e97948957cbfdef45ab378cb1bf11ed3
       internalID: 610089849
+=======
+      spriteID: 7f725d44f728846e9b9bee27bf30ceb6
+      internalID: -1418503742
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -935,8 +1125,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 5cdb6f6870ac83b4ea9cd64948b1fbf2
       internalID: 1906932068
+=======
+      spriteID: e62caaae868cf492692a8d53cadeef54
+      internalID: -941185764
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -956,8 +1151,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 0681b06bc2fe8184cab93b39eaad976e
       internalID: -1549830498
+=======
+      spriteID: 864a0e5f0abfc4a07bfd455f10feffa2
+      internalID: 1946251762
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -977,8 +1177,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: ddc94768aeb2c4a41b5c6aeb45287428
       internalID: 2020924186
+=======
+      spriteID: 646e2f195d43e475ba374cc8423e0ab5
+      internalID: -273644544
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -998,8 +1203,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 45e2e5dd7fae76e4ebcf51ce45a4fbe7
       internalID: 197496001
+=======
+      spriteID: 1f28d276a7dcf4749af0ae9c3831bc8e
+      internalID: 62376201
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1019,8 +1229,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 0ba3cf7b17bff43459bcb246b836443c
       internalID: 2137831987
+=======
+      spriteID: 8c8a3c2cdb13d488b829c51f177ce7de
+      internalID: -1707343453
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1040,8 +1255,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 8d7d2dcb18bfefa4c914c01616caefa1
       internalID: 630796292
+=======
+      spriteID: 932a9c4ce75154dcfa9cd4bc340bced9
+      internalID: -2049464589
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1061,8 +1281,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: e8eb002e664a32440ba3c1d83a0a5e51
       internalID: 1127327875
+=======
+      spriteID: de76c92346f31421d9b761cbc35c76c1
+      internalID: 610343736
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1082,8 +1307,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: de19dd0e371a2914c94662db3ffd605e
       internalID: 921129125
+=======
+      spriteID: 6d4de3d8247d740de8c1e8414dece341
+      internalID: 2025735726
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1103,8 +1333,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 9d31f6a6fb6582a4fa53699a0e2d036b
       internalID: 1637213657
+=======
+      spriteID: 4b9745316d4394b74a1114ed80b0274f
+      internalID: -380605410
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1124,8 +1359,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 403afeafc33550943bd044bf942a1566
       internalID: 2097792214
+=======
+      spriteID: b5ce696af85fc40bfb7bf808fc3490ec
+      internalID: 1461722476
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1145,8 +1385,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 3939af7fb958a9d47b6685d9f5923fc5
       internalID: 898437008
+=======
+      spriteID: 468abd00f0b604765b2031f4f7a5763a
+      internalID: 2070970653
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1166,8 +1411,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 9f7a62547af8d0f488de472b1707487a
       internalID: 848916891
+=======
+      spriteID: fcfac2b27c935437c8b10ca9a0ccc52b
+      internalID: -1510499054
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1187,8 +1437,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: b121e9214751dfa418edc79c74bbe771
       internalID: -688113263
+=======
+      spriteID: 099c37af58cf24147a75b78075bebe55
+      internalID: -1836509911
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1208,8 +1463,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 351e9fdad4a00ae4bbab3253b9e26565
       internalID: 984805230
+=======
+      spriteID: d327f1f3ced034f8584a530182508d28
+      internalID: -1326612148
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1229,8 +1489,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 27143883863720b4195142e11b8a428d
       internalID: -865864290
+=======
+      spriteID: 873eaff06689d4501b767dd7df5cc1fd
+      internalID: 1116632470
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1250,8 +1515,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 2d885335835746f4cb6bb7700fe53467
       internalID: 1515919662
+=======
+      spriteID: e66f5bce6b727421cb97113f08ef781f
+      internalID: -1769100564
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -1267,6 +1537,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< HEAD
       Cow_01_0: -2002384739
       Cow_01_1: 1243826749
       Cow_01_10: 1236080591
@@ -1321,6 +1592,62 @@ TextureImporter:
       Cow_01_7: 830372568
       Cow_01_8: 1484380136
       Cow_01_9: 1540119112
+=======
+      Cow_01_0: -1377910575
+      Cow_01_1: 76327388
+      Cow_01_10: 1228824374
+      Cow_01_11: 89244711
+      Cow_01_12: -293945464
+      Cow_01_13: -1865406319
+      Cow_01_14: 394458690
+      Cow_01_15: -213367641
+      Cow_01_16: 447729104
+      Cow_01_17: -1702138390
+      Cow_01_18: -1429774822
+      Cow_01_19: 121809287
+      Cow_01_2: 1431408243
+      Cow_01_20: 693952537
+      Cow_01_21: -1940320121
+      Cow_01_22: 1198101308
+      Cow_01_23: -391655487
+      Cow_01_24: -1950831115
+      Cow_01_25: 1085417020
+      Cow_01_26: 112346509
+      Cow_01_27: -180759632
+      Cow_01_28: 1272264033
+      Cow_01_29: -327373616
+      Cow_01_3: 416761536
+      Cow_01_30: -77927787
+      Cow_01_31: 1314821860
+      Cow_01_32: 194946836
+      Cow_01_33: 1143998340
+      Cow_01_34: -1587416118
+      Cow_01_35: 1661424078
+      Cow_01_36: 758058369
+      Cow_01_37: -1418503742
+      Cow_01_38: -941185764
+      Cow_01_39: 1946251762
+      Cow_01_4: 1584901046
+      Cow_01_40: -273644544
+      Cow_01_41: 62376201
+      Cow_01_42: -1707343453
+      Cow_01_43: -2049464589
+      Cow_01_44: 610343736
+      Cow_01_45: 2025735726
+      Cow_01_46: -380605410
+      Cow_01_47: 1461722476
+      Cow_01_48: 2070970653
+      Cow_01_49: -1510499054
+      Cow_01_5: 1937250448
+      Cow_01_50: -1836509911
+      Cow_01_51: -1326612148
+      Cow_01_52: 1116632470
+      Cow_01_53: -1769100564
+      Cow_01_6: -236429384
+      Cow_01_7: 124925672
+      Cow_01_8: 1380449199
+      Cow_01_9: -530935297
+>>>>>>> QuangDev
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

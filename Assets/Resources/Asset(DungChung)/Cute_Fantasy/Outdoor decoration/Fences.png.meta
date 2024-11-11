@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,8 +137,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 94b3da91ef9818a42a44da1d68650e9c
       internalID: 1879137935
+=======
+      spriteID: b41bc746805b742d791156323c910869
+      internalID: 877177311
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -158,8 +163,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: abc86e41e492a814a80010d582335cc6
       internalID: -701114650
+=======
+      spriteID: c917c760f4f194792ab1e8a52f3147f0
+      internalID: -2117991085
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -179,8 +189,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 4f154797f677ce3439eccad86a1b66ea
       internalID: 818353482
+=======
+      spriteID: 53106f75e0fe04af996bd0ffb7deb59c
+      internalID: -778825383
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -200,8 +215,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 2f87045a15e245546bf372c689d34cf1
       internalID: 1659685453
+=======
+      spriteID: f210a73d70c134512b21187d0b337144
+      internalID: 962157918
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -217,10 +237,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< HEAD
       Fences_0: 1879137935
       Fences_1: -701114650
       Fences_2: 818353482
       Fences_3: 1659685453
+=======
+      Fences_0: 877177311
+      Fences_1: -2117991085
+      Fences_2: -778825383
+      Fences_3: 962157918
+>>>>>>> QuangDev
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

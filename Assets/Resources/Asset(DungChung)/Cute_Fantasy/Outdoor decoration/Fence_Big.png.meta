@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,18 +127,31 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4
+<<<<<<< HEAD
         y: 48
         width: 8
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        y: 0
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> QuangDev
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 676580badabb95a4a81523366724c9b4
       internalID: 289417967
+=======
+      spriteID: cda733c5d94484f6fbd8fbae52e9df6e
+      internalID: 1775963903
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -148,9 +161,36 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 20
+<<<<<<< HEAD
         y: 48
         width: 40
         height: 16
+=======
+        y: 49
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99af2b3ddf2749af9676cf2dc6fd076
+      internalID: -1328364745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_Big_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 31
+        width: 40
+        height: 17
+>>>>>>> QuangDev
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,8 +198,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 7c836a1728e4c8441ac3a8d19bb23493
       internalID: 1830620333
+=======
+      spriteID: 9badcbb4f158d4677a9268c338907a72
+      internalID: -1663037422
+>>>>>>> QuangDev
       vertices: []
       indices: 
       edges: []
@@ -175,8 +220,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< HEAD
       Fence_Big_0: 289417967
       Fence_Big_1: 1830620333
+=======
+      Fence_Big_0: 1775963903
+      Fence_Big_1: -1328364745
+      Fence_Big_2: -1663037422
+>>>>>>> QuangDev
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
