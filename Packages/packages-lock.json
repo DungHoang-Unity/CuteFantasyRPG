@@ -105,7 +105,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.cinemachine": {
+<<<<<<< HEAD
+      "version": "2.10.2",
+=======
       "version": "2.10.3",
+>>>>>>> QuangDev
       "depth": 0,
       "source": "registry",
       "dependencies": {
