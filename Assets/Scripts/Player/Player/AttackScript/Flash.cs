@@ -9,16 +9,13 @@ public class Flash : MonoBehaviour
 
     private Material defaultMat;
     private SpriteRenderer spriteRenderer;
+    private EnemyHealth enemyHealth;
 
     private void Awake()
     {
+        enemyHealth = GetComponent<EnemyHealth>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         defaultMat = spriteRenderer.material;
-    }
-
-    public float GetRestoreMatTime()
-    {
-        return restoreDefaultMatTime;
     }
 
     public IEnumerator FlashRoutine()
@@ -26,5 +23,6 @@ public class Flash : MonoBehaviour
         spriteRenderer.material = whiteFlashMat;
         yield return new WaitForSeconds(restoreDefaultMatTime);
         spriteRenderer.material = defaultMat;
+        enemyHealth.DetectDeath();
     }
 }
