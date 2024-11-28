@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
     public static PlayerController Instance;
     [SerializeField] private float moveSpeed = 1f;
+    [SerializeField] private Transform weaponCollider;
 
     private PlayerControles playerControls;
     private Vector2 movement;
@@ -14,6 +15,9 @@ public class PlayerController : MonoBehaviour
     //animation
     private Animator MyAnimator;
     private SpriteRenderer mySpriteRender;
+    //knockBack
+    private Knockback knockback;
+
     //slash
     private bool facingLeft = false;
 
@@ -25,6 +29,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         MyAnimator = GetComponent<Animator>();
         mySpriteRender = GetComponent<SpriteRenderer>();
+        knockback = GetComponent<Knockback>();
     }
 
     private void OnEnable()
@@ -41,9 +46,15 @@ public class PlayerController : MonoBehaviour
     //goi move
     private void FixedUpdate()
     {
-        //AdjustPlayerFacingDerection();
+        AdjustPlayerFacingDerection();
         Move();
     }
+
+    public Transform GetWeaponCollider()
+    {
+        return weaponCollider;
+    }
+
     //khoi tao ham PlayerInput
     private void PlayerInput()
     {
@@ -56,6 +67,8 @@ public class PlayerController : MonoBehaviour
     //khoi tao ham Move
     private void Move()
     {
+        if (knockback.gettingKnockedBack) { return;  }
+
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
     }
     //goi ham quay mat
