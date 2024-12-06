@@ -48,8 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponInfo: {fileID: 11400000, guid: 663220eba2fb0499b88a404a07b9af2f, type: 2}
-  bulletPrefab: {fileID: 3461380003501051983, guid: a116f1e004c874f9cb7a3cc30d5749c2, type: 3}
-  bulletSpawnPoint: {fileID: 6973526623776175685}
+  arrowPrefab: {fileID: 3461380003501051983, guid: a116f1e004c874f9cb7a3cc30d5749c2, type: 3}
+  arrowSpawnPoint: {fileID: 6973526623776175685}
 --- !u!212 &3837173148738430142
 SpriteRenderer:
   m_ObjectHideFlags: 0

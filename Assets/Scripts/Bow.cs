@@ -5,8 +5,8 @@ using UnityEngine;
 public class Bow : MonoBehaviour, IWeapon
 {
     [SerializeField] private WeaponInfo weaponInfo;
-    [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private Transform bulletSpawnPoint;
+    [SerializeField] private GameObject arrowPrefab;
+    [SerializeField] private Transform arrowSpawnPoint;
 
     readonly int FIRE_HASH = Animator.StringToHash("Fire");
 
@@ -20,9 +20,8 @@ public class Bow : MonoBehaviour, IWeapon
     public void Attack()
     {
         myAnimator.SetTrigger(FIRE_HASH);
-        GameObject newBullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, ActiveWeapon.Instance.transform.rotation);
-        newBullet.GetComponent<Projecttile>().UpdateWeaponInfo(weaponInfo);
-        
+        GameObject newArrow = Instantiate(arrowPrefab, arrowSpawnPoint.position, ActiveWeapon.Instance.transform.rotation);
+        newArrow.GetComponent<Projecttile>().UpdateProjectileRange(weaponInfo.weaponRange);
     }
 
     public WeaponInfo GetWeaponInfo()
