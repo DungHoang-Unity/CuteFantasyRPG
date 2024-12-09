@@ -2,28 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActiveInventory : MonoBehaviour
+public class ActiveInventory : Singleton<ActiveInventory>
 {
     private int activeSlotIndexNum = 0;
 
-    private PlayerControles playerControles;
+    private PlayerControles playerControls;
 
-    private void Awake()
+    protected override void Awake()
     {
-        playerControles = new PlayerControles();
+        base.Awake();
 
+        playerControls = new PlayerControles();
     }
 
     private void Start()
     {
-        playerControles.Inventory.Keyboard.performed += ctx => ToggleActiveSlot((int)ctx.ReadValue<float>());
-
-        ToggleActiveHighlight(0);
+        playerControls.Inventory.Keyboard.performed += ctx => ToggleActiveSlot((int)ctx.ReadValue<float>());
     }
 
     private void OnEnable()
     {
-        playerControles.Enable();
+        playerControls.Enable();
+    }
+
+    public void EquipStartingWeapon()
+    {
+        ToggleActiveHighlight(0);
     }
 
     private void ToggleActiveSlot(int numValue)
@@ -47,24 +51,28 @@ public class ActiveInventory : MonoBehaviour
 
     private void ChangeActiveWeapon()
     {
-        if(ActiveWeapon.Instance.CurrentActiveWeapon != null)
+
+        if (ActiveWeapon.Instance.CurrentActiveWeapon != null)
         {
             Destroy(ActiveWeapon.Instance.CurrentActiveWeapon.gameObject);
         }
-        if(transform.GetChild(activeSlotIndexNum).GetComponentInChildren<InventorySlot>().GetWeaponInfo() == null)
+
+        Transform childTransform = transform.GetChild(activeSlotIndexNum);
+        InventorySlot inventorySlot = childTransform.GetComponentInChildren<InventorySlot>();
+        WeaponInfo weaponInfo = inventorySlot.GetWeaponInfo();
+        GameObject weaponToSpawn = weaponInfo.weaponPrefab;
+
+        if (weaponInfo == null)
         {
             ActiveWeapon.Instance.WeaponNull();
             return;
         }
 
-        GameObject weaponToSpawm = transform.GetChild(activeSlotIndexNum).
-            GetComponentInChildren<InventorySlot>().GetWeaponInfo().weaponPrefab;
 
-        GameObject newWeapon = Instantiate(weaponToSpawm, ActiveWeapon.Instance.transform.position, Quaternion.identity);
+        GameObject newWeapon = Instantiate(weaponToSpawn, ActiveWeapon.Instance.transform);
 
-        ActiveWeapon.Instance.transform.rotation = Quaternion.Euler(0, 0, 0);
-         
-        newWeapon.transform.parent = ActiveWeapon.Instance.transform;
+        //ActiveWeapon.Instance.transform.rotation = Quaternion.Euler(0, 0, 0);
+        //newWeapon.transform.parent = ActiveWeapon.Instance.transform;
 
         ActiveWeapon.Instance.NewWeapon(newWeapon.GetComponent<MonoBehaviour>());
     }

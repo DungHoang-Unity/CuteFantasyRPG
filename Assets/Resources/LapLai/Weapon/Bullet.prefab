@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3374979068209746057}
   - component: {fileID: 2537844818864622081}
   - component: {fileID: 1490495011566071688}
+  - component: {fileID: 8560321286260045157}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -77,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1840393372, guid: 501d1fd55c961480aba20bd0a0e22c73, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -283,3 +284,15 @@ MonoBehaviour:
   particleOnHitPrefabVFX: {fileID: 9103177802189771133, guid: 1139d2d1b6dd54dbe8dc7d86e8825f35, type: 3}
   isEnemyProjectile: 0
   projectileRange: 12
+--- !u!114 &8560321286260045157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3461380003501051983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e09841df14814869b46dd4139dd939a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
