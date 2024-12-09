@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78384c5f029de490c8da4d38ebdbad49, type: 3}
-  m_Name: Bow
+  m_Name: Punk
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 2979696157295734702, guid: ce2bff372cb58492f9676b035ea6dea0, type: 3}
-  weaponCooldown: 0.7
-  weaponDamage: 10
-  weaponRange: 12
+  weaponPrefab: {fileID: 4200841910872742911, guid: 48260cb4bd6ae4845a72836b6efb275e, type: 3}
+  weaponCooldown: 0
+  weaponDamage: 0
+  weaponRange: 0
