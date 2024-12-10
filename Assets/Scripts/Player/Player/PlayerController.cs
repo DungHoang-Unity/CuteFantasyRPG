@@ -1,13 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< HEAD
-using UnityEngine.InputSystem;
-public class PlayerController : MonoBehaviour
-=======
 
 public class PlayerController : Singleton<PlayerController>
->>>>>>> 76df4177be0ccea42bc42dfbdb24a179d3431cf4
 {
     public bool FacingLeft { get { return facingLeft; } }
 
