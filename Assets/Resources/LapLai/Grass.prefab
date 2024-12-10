@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7738402538086812991}
   - component: {fileID: 6189347825863358205}
   - component: {fileID: 6838360442005085889}
+  - component: {fileID: -589573143239068673}
   m_Layer: 0
   m_Name: Grass
   m_TagString: Untagged
@@ -134,3 +135,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyVFX: {fileID: 9103177802189771133, guid: 97bc867cdb35e4fd2bec330530157306, type: 3}
+--- !u!114 &-589573143239068673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286031822197657005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ebcd4603d77413aad6ee356115c85e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 2729768348477832547, guid: c9265ca7515a04b098e2d759b3357af1, type: 3}
+  healthGlobe: {fileID: 2729768348477832547, guid: 95fae6d10feda4bd6bd7a3890d2ec24b, type: 3}
+  staminaGlobe: {fileID: 2729768348477832547, guid: c00198782d62d4f84aca7d6c7a2afd6e, type: 3}

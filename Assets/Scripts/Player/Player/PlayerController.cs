@@ -1,65 +1,95 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
+=======
+
+public class PlayerController : Singleton<PlayerController>
+>>>>>>> 76df4177be0ccea42bc42dfbdb24a179d3431cf4
 {
-    public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
-    public static PlayerController Instance;
+    public bool FacingLeft { get { return facingLeft; } }
+
+
     [SerializeField] private float moveSpeed = 1f;
+    [SerializeField] private float dashSpeed = 4f;
+    [SerializeField] private TrailRenderer myTrailRenderer;
+    [SerializeField] private Transform weaponCollider;
 
     private PlayerControles playerControls;
     private Vector2 movement;
     private Rigidbody2D rb;
-    //animation
-    private Animator MyAnimator;
+    private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
-    //slash
+    private Knockback knockback;
+    private float startingMoveSpeed;
+
     private bool facingLeft = false;
+    private bool isDashing = false;
 
-
-    private void Awake()
+    protected override void Awake()
     {
-        Instance = this;
+        base.Awake();
+
         playerControls = new PlayerControles();
         rb = GetComponent<Rigidbody2D>();
-        MyAnimator = GetComponent<Animator>();
+        myAnimator = GetComponent<Animator>();
         mySpriteRender = GetComponent<SpriteRenderer>();
+        knockback = GetComponent<Knockback>();
+    }
+
+    private void Start()
+    {
+        playerControls.Combat.Dash.performed += _ => Dash();
+
+        startingMoveSpeed = moveSpeed;
+
+        ActiveInventory.Instance.EquipStartingWeapon();
     }
 
     private void OnEnable()
     {
         playerControls.Enable();
     }
-    //goi playerInput
+
+    private void OnDisable()
+    {
+        playerControls.Disable();
+    }
+
     private void Update()
     {
         PlayerInput();
-        AdjustPlayerFacingDerection();
-
     }
-    //goi move
+
     private void FixedUpdate()
     {
-        //AdjustPlayerFacingDerection();
+        AdjustPlayerFacingDirection();
         Move();
     }
-    //khoi tao ham PlayerInput
+
+    public Transform GetWeaponCollider()
+    {
+        return weaponCollider;
+    }
+
     private void PlayerInput()
     {
         movement = playerControls.Movement.Move.ReadValue<Vector2>();
 
-        MyAnimator.SetFloat("moveX", movement.x);
-        MyAnimator.SetFloat("moveY", movement.y);
-
+        myAnimator.SetFloat("moveX", movement.x);
+        myAnimator.SetFloat("moveY", movement.y);
     }
-    //khoi tao ham Move
+
     private void Move()
     {
+        if (knockback.GettingKnockedBack || PlayerHealth.Instance.isDead) { return; }
+
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
     }
-    //goi ham quay mat
-    private void AdjustPlayerFacingDerection()
+
+    private void AdjustPlayerFacingDirection()
     {
         Vector3 mousePos = Input.mousePosition;
         Vector3 playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
@@ -72,6 +102,30 @@ public class PlayerController : MonoBehaviour
         else
         {
             mySpriteRender.flipX = false;
+            facingLeft = false;
         }
+    }
+
+    private void Dash()
+    {
+        if (!isDashing && Stamina.Instance.CurrentStamina > 0)
+        {
+            Stamina.Instance.UseStamina();
+            isDashing = true;
+            moveSpeed *= dashSpeed;
+            myTrailRenderer.emitting = true;
+            StartCoroutine(EndDashRoutine());
+        }
+    }
+
+    private IEnumerator EndDashRoutine()
+    {
+        float dashTime = .2f;
+        float dashCD = .25f;
+        yield return new WaitForSeconds(dashTime);
+        moveSpeed = startingMoveSpeed;
+        myTrailRenderer.emitting = false;
+        yield return new WaitForSeconds(dashCD);
+        isDashing = false;
     }
 }

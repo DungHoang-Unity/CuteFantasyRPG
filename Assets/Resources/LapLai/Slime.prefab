@@ -187,6 +187,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0503c7fa3b6394228995a73100cc798e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roamChangeDirFloat: 2
+  attackRange: 5
+  enemyType: {fileID: 8834103873042093044}
+  attackCooldown: 2
+  stopMovingWhileAttacking: 1
 --- !u!114 &8834103873042093044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d95bb4cab1e84375999c6bae45752c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockBackTime: 0.1
+  knockBackTime: 0.2
 --- !u!114 &15675122047950769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,6 +232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHealth: 3
   deathVFXPrefab: {fileID: 9103177802189771133, guid: 4d3d3bd7a33ae4b89a97e4831969025e, type: 3}
+  knockBackThrust: 15
 --- !u!114 &1481414241211594203
 MonoBehaviour:
   m_ObjectHideFlags: 0
